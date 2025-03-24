@@ -6,7 +6,8 @@ import App from './App.jsx'
 
 import {
   Learn1,
-  List
+  List,
+  Ref
 } from './PagesRoutes'
 
 createRoot(document.getElementById('root')).render(
@@ -15,6 +16,7 @@ createRoot(document.getElementById('root')).render(
       <Route path="/" element={<App />} />
         <Route path="/learn1" element={<Learn1 />} />
         <Route path="/list" element={<List />} />
+        <Route path="/ref" element={<Ref />} />
     </Routes>
   </BrowserRouter>
 )
