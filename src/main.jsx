@@ -8,7 +8,8 @@ import {
   Learn1,
   List,
   Ref,
-  Parent
+  Parent,
+  DemoStyle
 } from './PagesRoutes'
 
 createRoot(document.getElementById('root')).render(
@@ -19,6 +20,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/list" element={<List />} />
         <Route path="/ref" element={<Ref />} />
         <Route path="/parent" element={<Parent />} />
+        <Route path="/demoStyle" element={<DemoStyle />} />
     </Routes>
   </BrowserRouter>
 )
