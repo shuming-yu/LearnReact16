@@ -10,7 +10,8 @@ import {
   Ref,
   Parent,
   DemoStyle,
-  Progress
+  Progress,
+  CustCSS
 } from './PagesRoutes'
 
 createRoot(document.getElementById('root')).render(
@@ -23,6 +24,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/parent" element={<Parent />} />
         <Route path="/demoStyle" element={<DemoStyle />} />
         <Route path="/progress" element={<Progress />} />
+        <Route path="/custCSS" element={<CustCSS />} />
     </Routes>
   </BrowserRouter>
 )
