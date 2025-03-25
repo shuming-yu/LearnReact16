@@ -11,7 +11,10 @@ import {
   Parent,
   DemoStyle,
   Progress,
-  CustCSS
+  CustCSS,
+  RenderList,
+  RenderObj,
+  RenderKey,
 } from './PagesRoutes'
 
 createRoot(document.getElementById('root')).render(
@@ -25,6 +28,9 @@ createRoot(document.getElementById('root')).render(
         <Route path="/demoStyle" element={<DemoStyle />} />
         <Route path="/progress" element={<Progress />} />
         <Route path="/custCSS" element={<CustCSS />} />
+        <Route path="/renderList" element={<RenderList />} />
+        <Route path="/renderObj" element={<RenderObj />} />
+        <Route path="/renderKey" element={<RenderKey />} />
     </Routes>
   </BrowserRouter>
 )
