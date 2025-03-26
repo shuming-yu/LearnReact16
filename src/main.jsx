@@ -15,6 +15,7 @@ import {
   RenderList,
   RenderObj,
   RenderKey,
+  RenderFile,
 } from './PagesRoutes'
 
 createRoot(document.getElementById('root')).render(
@@ -31,6 +32,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/renderList" element={<RenderList />} />
         <Route path="/renderObj" element={<RenderObj />} />
         <Route path="/renderKey" element={<RenderKey />} />
+        <Route path="/renderFile" element={<RenderFile />} />
     </Routes>
   </BrowserRouter>
 )

@@ -8,6 +8,7 @@ import CustCSS from './MyCSS/MyCSS';
 import RenderList from './Render/List';
 import RenderObj from './Render/Obj';
 import RenderKey from './Render/Slice';
+import RenderFile from './Render/File';
 
 export {
   Learn1,
@@ -20,4 +21,5 @@ export {
   RenderList,
   RenderObj,
   RenderKey,
+  RenderFile,
 };

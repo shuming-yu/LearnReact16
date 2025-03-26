@@ -1,0 +1,36 @@
+{
+  "name": "node_modules",
+  "files": [
+    {
+      "name": ".bin",
+      "files": [
+        {
+          "name": "a"
+        },
+        {
+          "name": "b"
+        },
+        {
+          "name": "c"
+        }
+      ]
+    },
+    {
+      "name": "code-test"
+    },
+    {
+      "name": ".cache",
+      "files": [
+        {
+          "name": "123123123453"
+        },
+        {
+          "name": "1234554458899"
+        },
+        {
+          "name": "c456453787966"
+        }
+      ]
+    }
+  ]
+}
