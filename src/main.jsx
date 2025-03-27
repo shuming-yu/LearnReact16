@@ -16,6 +16,11 @@ import {
   RenderObj,
   RenderKey,
   RenderFile,
+  FormText,
+  FormNum,
+  FormList,
+  FormCheck,
+  FormImg,
 } from './PagesRoutes'
 
 createRoot(document.getElementById('root')).render(
@@ -33,6 +38,11 @@ createRoot(document.getElementById('root')).render(
         <Route path="/renderObj" element={<RenderObj />} />
         <Route path="/renderKey" element={<RenderKey />} />
         <Route path="/renderFile" element={<RenderFile />} />
+        <Route path="/formText" element={<FormText />} />
+        <Route path="/formNum" element={<FormNum />} />
+        <Route path="/formList" element={<FormList />} />
+        <Route path="/formCheck" element={<FormCheck />} />
+        <Route path="/formImg" element={<FormImg />} />
     </Routes>
   </BrowserRouter>
 )
